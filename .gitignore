@@ -1,0 +1,28 @@
+# Rust
+/target
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Android
+andorid/
+build_android.sh
+
+# Examples (compiled)
+examples/*.png
+
+# Test files
+tests/*.rs
+
+# Documentation build artifacts
+docs/*.html
+
+# OS
+.DS_Store
+Thumbs.db
